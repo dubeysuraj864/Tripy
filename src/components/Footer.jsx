@@ -5,7 +5,7 @@ import Youtube from "../images/youtube.png";
 import SendButton from "../images/Send-button.png";
 function Footer() {
     return ( <>
-    <div className="footer sm:flex sm:justify-around py-10">
+    <div className="footer sm:flex sm:justify-around pb-20 bg-white pt-10">
         <div>
             <div>
             <img className=" sm:mx-0" src={Logo} width={80} alt="" />

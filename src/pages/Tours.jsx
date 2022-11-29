@@ -2,8 +2,8 @@ import SmallCard from "../components/SmallCard";
 
 function Tours() {
     return ( <>
-    <div className="sm:flex sm:justify-center">
-        <div>
+    <div className=" ml-auto m-0 p-0 mr-auto w-full sm:flex sm:justify-center">
+        <div className="">
         <SmallCard/>
         </div>
         <div className="py-10">

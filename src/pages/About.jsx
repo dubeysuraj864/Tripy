@@ -15,10 +15,10 @@ function About() {
         </div>
         <div className="right sm:ml-auto sm:mr-auto">
           <div className="text-pink-600 pb-2">ABOUT US</div>
-          <div className="text-5xl font-bold pb-5">
+          <div className="sm:text-5xl text-2xl font-bold pb-5">
             Our tour plan is to <br /> fulfil your dream wish
           </div>
-          <div>
+          <div className="text-sm sm:text-md">
             Understand to achieve anything requires faith and <br /> belief in
             yourself, vision, hard work, determination, <br /> and dedication.
           </div>

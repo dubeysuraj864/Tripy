@@ -11,7 +11,7 @@ function SearchBar() {
           {" "}
           <img src={Location} width={25} alt="" />{" "}
           <div className="flex-col text-left ml-2">
-            <select name="select">
+            <select className="p-1 m-1 rounded bg-white " name="select">
               <option value="">Location</option>
               <option value="California">California</option>
               <option value="San-francisco">San Francisco</option>
@@ -31,14 +31,14 @@ function SearchBar() {
           {" "}
           <img src={Calendar} width={25} alt="" />{" "}
           <div className="flex-col text-left ml-2">
-            <select className="p-0" name="select">
+            <select className="p-1 m-1 rounded bg-white "  name="select">
               <option value="">Date</option>
               <option>20 Jan 2023</option>
               <option>3 Fab 2023</option>
               <option>25 Apr 2023</option>
               <option>10 July 2023</option>
             </select>
-            <div className="ml-1">25 Apr 2023</div>
+            <div className="ml-1 ">25 Apr 2023</div>
           </div>
         </button>
         <button className=" justify-center w-full items-center hidden sm:inline-flex">

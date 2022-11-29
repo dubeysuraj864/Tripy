@@ -3,7 +3,7 @@ import Image1 from "../images/card-image1.png";
 
 function SmallCard() {
     return ( <>
-     <div className="main w-52 mx-2 my-2 rounded-xl bg-white">
+     <div className="main sm:w-52 w-4/5 h-fit sm:mx-2 sm:my-2 mt-10 rounded-xl bg-white ml-auto mr-auto ">
         <div className="top  p-2">
             <div>
                 <img src={Image1} className="rounded-xl" width={400} alt="" />

@@ -8,7 +8,7 @@ function Card(props) {
           <div>
             <img
               src={props.image}
-              className="rounded-t-xl sm:w-full sm:h-64 object-cover"
+              className="rounded-t-xl sm:w-full sm:h-64 object-cover  w-full h-64"
               alt=""
             />
           </div>

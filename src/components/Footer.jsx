@@ -14,7 +14,8 @@ function Footer() {
           <div className="address my-2 text-sm font-light">
             4517 Washington Ave. <br /> Manchester, Kentucky 39495
           </div>
-          <div className="social flex justify-center">
+          <div className="social flex justify-center
+          sm:flex sm:justify-start">
             <a href="/" target="_blank" rel="noopener noreferrer">
               <img src={Facebook} width={20} alt="" />
             </a>
@@ -52,7 +53,7 @@ function Footer() {
           <div className="font-light text-sm my-2 m-auto">
             Subscribe our newsletter and get exciting offers
           </div>
-          <div className="font-light text-sm flex justify-center sm:justify-left items-center m-auto  sm:m-0 ">
+          <div className="font-light text-sm flex justify-center sm:justify-left items-center m-auto  sm:m-0 sm:flex sm:justify-start ">
             <input
               type="text"
               placeholder="Enter your email address"

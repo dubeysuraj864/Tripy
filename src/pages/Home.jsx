@@ -16,7 +16,7 @@ function Home() {
             alt=""
           />
         </div>
-        <div className="left ml-auto mr-auto sm:w-1/2">
+        <div className="left ml-auto mr-auto sm:w-2/3">
           <div className="text-4xl sm:text-6xl font-bold py-5 sm:w-3/4">
             Dare to live the life you've always <br /> wanted.
           </div>

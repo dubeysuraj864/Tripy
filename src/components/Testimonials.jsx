@@ -28,8 +28,6 @@ function Testimonials() {
         id="testimonials-content"
         className="relative main flex sm:flex my-0 overflow-auto ml-auto mr-auto sm:ml-28 sm:mr-28 scrollbar-hide scroll-smooth pl-3"
       >
-
-        
    
         <div>
           <RatingCard />

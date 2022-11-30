@@ -2,7 +2,11 @@ import Left from "../images/Arrow-left.png";
 import Right from "../images/Arrow-right.png";
 import Card from "../components/Card";
 import Testimonials from "../components/Testimonials";
-import Tours from "./Tours";
+import Image1 from "../images/card-image1.png";
+import Image2 from "../images/card-image2.png";
+import Image3 from "../images/card-image3.png";
+
+
 
 function Services() {
   const scrollRight = () => {
@@ -29,7 +33,6 @@ function Services() {
               <img
                 src={Left}
                 className=" transition-all hover:scale-125 hover:saturate-200 sm:w-12 w-20"
-               
                 alt=""
               />
             </button>
@@ -37,7 +40,6 @@ function Services() {
               <img
                 src={Right}
                 className=" transition-all hover:scale-125 hover:saturate-200 sm:w-12 w-20"
-             
                 alt=""
               />
             </button>
@@ -50,53 +52,59 @@ function Services() {
           className=" flex overflow-x-auto sm:ml-20 ml-5 sm:mr-10 scrollbar-hide bar-none transition-all duration-150 scroll-smooth"
         >
           <div>
-            <Card />
+            <Card
+              image={Image1}
+              title={"Fall in love among the winding streets and snow-covered"}
+              location={"Prague, Czechia"}
+              ratings={4.9}
+              price={200}
+            />
           </div>
           <div>
-            <Card />
-          </div>{" "}
-          <div>
-            <Card />
-          </div>{" "}
-          <div>
-            <Card />
-          </div>{" "}
-          <div>
-            <Card />
-          </div>{" "}
-          <div>
-            <Card />
-          </div>{" "}
-          <div>
-            <Card />
-          </div>{" "}
-          <div>
-            <Card />
-          </div>{" "}
-          <div>
-            <Card />
-          </div>{" "}
-          <div>
-            <Card />
+            <Card
+              image={"https://images.unsplash.com/photo-1531363291174-5980f7af8bae?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"}
+              title={"History is not about the past but a map of the past"}
+              location={"Beijing, Czechia"}
+              ratings={4.5}
+              price={250}
+            />
+         
           </div>
+          <div>
+            <Card
+              image={Image2}
+              title={"The unique character as a symbol of taste and ostentation"}
+              location={"İstanbul, Turkey"}
+              ratings={4.8}
+              price={180}
+            />
+         
+          </div>
+          <div>
+            <Card
+              image={Image3}
+              title={"You don't want to pitch a tent and live inside the Louvre"}
+              location={"Paris, France"}
+              ratings={4.7}
+              price={300}
+            />
+         
+          </div>
+          <div>
+            <Card
+              image={"https://images.unsplash.com/photo-1541300613939-71366b37c92e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1505&q=80"}
+              title={"Fall in love among the winding streets and snow-covered"}
+              location={"Prague, Czechia"}
+              ratings={4.9}
+              price={200}
+            />
+         
+          </div>
+       
         </div>
       </div>
       <div>
         <Testimonials />
-      </div>
-      <div className="">
-        <div className="sm:text-4xl text-2xl text-center ml-auto mr-auto sm:w-1/2 sm:text-center font-bold">
-          We can do anything we want to if we stick to it long enough.
-        </div>
-        <div className="text-sm ml-auto mr-auto sm:w-1/2 sm:text-center font-light my-5 text-center">
-          Do what you can, with what you have, where you are.
-        </div>
-        <div className=" bg-pink-600 w-fit text-white rounded-full px-4 py-3 ml-auto mr-auto  font-light" to="/">
-          See all tours
-        </div>
-        <div>
-          <Tours />
-        </div>
       </div>
     </div>
   );

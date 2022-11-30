@@ -2,6 +2,7 @@ import About from "./About";
 import Hero from "../images/hero.png";
 import SearchBar from "../components/SearchBar";
 import Services from "./Services";
+import Price from "./Price";
 
 function Home() {
   return (
@@ -38,6 +39,7 @@ function Home() {
       </div>
       <About />
       <Services />
+      <Price/>
     </>
   );
 }

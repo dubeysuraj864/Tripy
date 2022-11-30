@@ -47,12 +47,7 @@ function Navbar() {
                     Price
                   </Link>
                 </li>
-                <li>
-                  {" "}
-                  <Link className="p-4" to="/contact">
-                    Contact
-                  </Link>
-                </li>
+              
               </div>
               <div className="py-5 sm:py-0">
                 <Link className="p-4" to="/">

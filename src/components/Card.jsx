@@ -1,24 +1,27 @@
 import Star from "../images/magic-star.png";
-import Image1 from "../images/card-image1.png";
 
-function Card() {
+function Card(props) {
   return (
     <>
       <div className="main w-64 mx-2 my-2 rounded-t-xl">
         <div className="top">
           <div>
-            <img src={Image1} className="rounded-t-xl" width={800} alt="" />
+            <img
+              src={props.image}
+              className="rounded-t-xl sm:w-full sm:h-64 object-cover"
+              alt=""
+            />
           </div>
         </div>
-        <div className="bottom w-full bg-white rounded-b-xl p-3">
-          <div className="title font-bold text-sm mb-1 ">
-            Fall in love among the winding streets and snow-covered
-          </div>
-          <div className="location-name text-sm mb-1">Prague, Czechia</div>
+        <div className="bottom w-full bg-white rounded-b-xl p-3 ">
+          <div className="title font-bold text-sm mb-1 ">{props.title}</div>
+          <div className="location-name text-sm mb-1">{props.location}</div>
           <div className="ratings flex mb-2">
-            <img src={Star} width={20} height={20} alt="" /> 4.9
+            <img src={Star} width={20} height={20} alt="" /> {props.ratings}
           </div>
-          <div className="price text-pink-600 font-bold text-xl">$200</div>
+          <div className="price text-pink-600 font-bold text-xl">
+            ${props.price}
+          </div>
         </div>
       </div>
     </>

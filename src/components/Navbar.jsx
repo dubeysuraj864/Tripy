@@ -9,7 +9,7 @@ function Navbar() {
       <div>
         <nav className="p-6  bg-white sm:flex sm:justify-around sm:items-center sm:py-5">
           <div className="logo flex justify-between ">
-            <img className="mx-4 sm:mx-0" src={Logo} width={80} alt="" />
+            <img className="mx-4 animate-bounce sm:mx-0" src={Logo} width={80} alt="" />
             <span
               onClick={() => {
                 setShow(!show);

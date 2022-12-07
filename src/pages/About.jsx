@@ -1,10 +1,13 @@
 import Hero2 from "../images/hero2.png";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 function About() {
+  AOS.init()
   return (
     <>
       <div className="Contact  sm:flex sm:items-center p-10 sm:justify-center">
-        <div className="left  sm:ml-auto sm:mr-auto">
+        <div className="left  sm:ml-auto sm:mr-auto" data-aos="fade-up-right">
           <img
             src={Hero2}
             className="my-10"
@@ -13,7 +16,7 @@ function About() {
           />
         
         </div>
-        <div className="right sm:ml-auto sm:mr-auto">
+        <div className="right sm:ml-auto sm:mr-auto" data-aos="fade-up-left">
           <div className="text-pink-600 pb-2">ABOUT US</div>
           <div className="sm:text-5xl text-2xl font-bold pb-5">
             Our tour plan is to <br /> fulfil your dream wish

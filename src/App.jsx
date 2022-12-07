@@ -10,6 +10,7 @@ import Footer from "./components/Footer";
 function App() {
   return (
     <div className="App bg-gray-100">
+   
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Navbar/>} >

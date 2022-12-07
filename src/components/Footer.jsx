@@ -9,7 +9,7 @@ function Footer() {
       <div className="footer text-center sm:text-left sm:flex sm:justify-around pb-20 bg-white pt-5">
         <div className="py-5 m-auto">
           <div>
-            <img className=" sm:mx-0 m-auto" src={Logo} width={80} alt="" />
+            <img className=" sm:mx-0 m-auto animate-bounce" src={Logo} width={80} alt="" />
           </div>
           <div className="address my-2 text-sm font-light">
             4517 Washington Ave. <br /> Manchester, Kentucky 39495

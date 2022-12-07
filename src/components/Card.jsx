@@ -3,7 +3,7 @@ import Star from "../images/magic-star.png";
 function Card(props) {
   return (
     <>
-      <div className="main w-64 mx-2 my-2 rounded-t-xl">
+      <div className="main w-64 mx-2 my-2 rounded-t-xl" data-aos="flip-left">
         <div className="top">
           <div>
             <img

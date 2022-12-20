@@ -1,6 +1,6 @@
 
-import Star from "../images/magic-star.png";
-import Quote from "../images/quote.png";
+import Star from "../images/magic-star.webp";
+import Quote from "../images/quote.webp";
 
 function RatingCard(props) {
   return <>

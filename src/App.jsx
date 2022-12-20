@@ -6,22 +6,20 @@ import Services from "./pages/Services";
 import Price from "./pages/Price";
 import Footer from "./components/Footer";
 
-
 function App() {
   return (
-    <div className="App bg-gray-100">
-   
+    <div className="App bg-gray-100 ">
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Navbar/>} >
-            <Route index element={<Home/>} />
-            <Route path="/about" element={<About/>} />
-            <Route path="/services" element={<Services/>} />
-            <Route path="/price" element={<Price/>} />
+          <Route path="/" element={<Navbar />}>
+            <Route index element={<Home />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/services" element={<Services />} />
+            <Route path="/price" element={<Price />} />
           </Route>
         </Routes>
       </BrowserRouter>
-      <Footer/>
+      <Footer />
     </div>
   );
 }

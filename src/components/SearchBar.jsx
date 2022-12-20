@@ -1,13 +1,13 @@
-import Location from "../images/location.png";
-import Divider from "../images/Divider.png";
-import Calendar from "../images/calendar.png";
-import Search from "../images/Search-button.png";
+import Location from "../images/location.webp";
+import Divider from "../images/Divider.webp";
+import Calendar from "../images/calendar.webp";
+import Search from "../images/Search-button.webp";
 
 function SearchBar() {
   return (
-    <>
-      <div className="flex items-center bg-white w-fit px-4  sm:my-5 sm:rounded-full rounded-xl  sm:m-0 shadow-md my-10">
-        <button className=" flex items-center sm:px-6">
+    <div >
+      <div className="flex justify-center items-center bg-white sm:w-fit w-fit sm:px-4  sm:my-5 sm:rounded-full rounded-xl  sm:m-0 shadow-md my-10 m-auto pl-2">
+        <button className=" flex items-center sm:px-6 ">
           {" "}
           <img src={Location} width={25} alt="" />{" "}
           <div className="flex-col text-left ml-2">
@@ -60,7 +60,7 @@ function SearchBar() {
           alt=""
         />{" "}
       </button>
-    </>
+    </div>
   );
 }
 

@@ -6,10 +6,10 @@ function Navbar() {
   const [show, setShow] = useState(true);
   return (
     <>
-      <div>
+      <div data-aos="fade-up">
         <nav className="p-6  bg-white sm:flex sm:justify-around sm:items-center sm:py-5">
           <div className="logo flex justify-between ">
-            <img className="mx-4 animate-bounce sm:mx-0" src={Logo} width={80} alt="" />
+            <img className="mx-4  sm:mx-0" src={Logo} width={80} alt="" />
             <span
               onClick={() => {
                 setShow(!show);
@@ -23,45 +23,82 @@ function Navbar() {
           </div>
 
           {show ? (
-            <>
-              <div className="nav-links py-5 sm:py-0 list-none sm:flex ">
+            <div className="open">
+              <div className="nav-links py-5 sm:py-0 list-none sm:flex transition-all ">
+                <li className="py-3 sm:py-0">
+                  <Link className="p-4  hover:text-pink-600" to="/">
+                    Home
+                  </Link>
+                </li>
+                <li className="py-3 sm:py-0">
+                  {" "}
+                  <Link className="p-4  hover:text-pink-600" to="/about">
+                    About
+                  </Link>
+                </li>
+                <li className="py-3 sm:py-0">
+                  <Link className="p-4  hover:text-pink-600" to="/services">
+                    Services
+                  </Link>
+                </li>
+                <li className="py-3 sm:py-0">
+                  {" "}
+                  <Link className="p-4  hover:text-pink-600" to="/price">
+                    Price
+                  </Link>
+                </li>
+                <div className="py-5 sm:py-0">
+                  <Link className="p-4 hover:text-pink-600" to="/">
+                    Login
+                  </Link>
+                  <Link
+                    className=" bg-pink-600 text-white rounded-full px-4 py-3"
+                    to="/"
+                  >
+                    Register
+                  </Link>
+                </div>
+              </div>
+            </div>
+          ) : (
+            <div className="close">
+              <div className="nav-links py-5 sm:py-0 list-none sm:flex transition-all ">
                 <li>
-                  <Link className="p-4" to="/">
+                  <Link className="p-4 hover:text-pink-600" to="/">
                     Home
                   </Link>
                 </li>
                 <li>
                   {" "}
-                  <Link className="p-4" to="/about">
+                  <Link className="p-4 hover:text-pink-600" to="/about">
                     About
                   </Link>
                 </li>
                 <li>
-                  <Link className="p-4" to="/services">
+                  <Link className="p-4 hover:text-pink-600" to="/services">
                     Services
                   </Link>
                 </li>
                 <li>
                   {" "}
-                  <Link className="p-4" to="/price">
+                  <Link className="p-4 hover:text-pink-600" to="/price">
                     Price
                   </Link>
                 </li>
-              
+                <div className="py-5 sm:py-0">
+                  <Link className="p-4 hover:text-pink-600" to="/">
+                    Login
+                  </Link>
+                  <Link
+                    className=" bg-pink-600 text-white rounded-full px-4 py-3"
+                    to="/"
+                  >
+                    Register
+                  </Link>
+                </div>
               </div>
-              <div className="py-5 sm:py-0">
-                <Link className="p-4" to="/">
-                  Login
-                </Link>
-                <Link
-                  className=" bg-pink-600 text-white rounded-full px-4 py-3"
-                  to="/"
-                >
-                  Register
-                </Link>
-              </div>
-            </>
-          ) : null}
+            </div>
+          )}
         </nav>
       </div>
       <Outlet />

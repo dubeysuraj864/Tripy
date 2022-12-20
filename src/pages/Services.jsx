@@ -1,10 +1,10 @@
-import Left from "../images/Arrow-left.png";
-import Right from "../images/Arrow-right.png";
+import Left from "../images/Arrow-left.webp";
+import Right from "../images/Arrow-right.webp";
 import Card from "../components/Card";
 import Testimonials from "../components/Testimonials";
-import Image1 from "../images/card-image1.png";
-import Image2 from "../images/card-image2.png";
-import Image3 from "../images/card-image3.png";
+import Image1 from "../images/card-image1.webp";
+import Image2 from "../images/card-image2.webp";
+import Image3 from "../images/card-image3.webp";
 
 function Services() {
   const scrollRight = () => {

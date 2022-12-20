@@ -8,7 +8,7 @@ function Tours() {
         image={"https://images.unsplash.com/photo-1605617697069-959ec9dfc9de?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1850&q=80"}
         location={"New York, US"}
         price={500}
-        data-aos="zoom-out-right"
+        data-aos="fade-up"
         />
         </div>
         <div className="sm:pt-10 mx-5">
@@ -16,7 +16,7 @@ function Tours() {
         image={" https://images.unsplash.com/photo-1489657780376-e0d8630c4bd3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1160&q=80"}
         location={"Switzerland, EU"}
         price={400}
-        data-aos="zoom-out-right"
+        data-aos="fade-up"
         />
         </div>
         <div className="sm:pt-10 mx-5">
@@ -24,7 +24,7 @@ function Tours() {
         image={" https://images.unsplash.com/photo-1547637076-3e0fefae5d71?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80"}
         location={"Thailand, Singapore"}
         price={380}
-        data-aos="zoom-out-left"
+        data-aos="fade-up"
         />
         </div>
         <div className="">
@@ -32,7 +32,7 @@ function Tours() {
         image={" https://images.unsplash.com/photo-1518983835933-984f33c641e0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1734&q=80"}
         location={"Babia Góra, EU"}
         price={700}
-        data-aos="zoom-out-left"
+        data-aos="fade-up"
         />
         </div>
        

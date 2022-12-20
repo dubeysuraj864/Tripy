@@ -1,9 +1,9 @@
-import Star from "../images/magic-star.png";
+import Star from "../images/magic-star.webp";
 
 function Card(props) {
   return (
     <>
-      <div className="main w-64 mx-2 my-2 rounded-t-xl" data-aos="flip-left">
+      <div className="main w-64 mx-2 my-2 rounded-t-xl" data-aos="fade-up">
         <div className="top">
           <div>
             <img

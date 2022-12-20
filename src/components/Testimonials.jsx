@@ -1,6 +1,6 @@
 import RatingCard from "../components/RatingCard";
-import Left from "../images/Arrow-left.png";
-import Right from "../images/Arrow-right.png";
+import Left from "../images/Arrow-left.webp";
+import Right from "../images/Arrow-right.webp";
 
 function Testimonials() {
   const moveLeft = () => {
@@ -12,7 +12,7 @@ function Testimonials() {
 
   return (
     <div className="relative">
-      <div className="text-center mt-40" data-aos="zoom-in">
+      <div className="text-center mt-40" data-aos="fade-up">
         <div className="title title text-sm text-pink-600 font-bold">
           TESTIMONIALS
         </div>
@@ -23,7 +23,7 @@ function Testimonials() {
 
       <div
         id="testimonials-content"
-        className="relative main flex sm:flex my-0 overflow-auto ml-auto mr-auto sm:ml-28 sm:mr-28 scrollbar-hide scroll-smooth pl-3" data-aos="zoom-in-left"
+        className="relative main flex sm:flex my-0 overflow-auto ml-auto mr-auto sm:ml-28 sm:mr-28 scrollbar-hide scroll-smooth pl-3" data-aos="fade-up"
       >
         <div>
           <RatingCard

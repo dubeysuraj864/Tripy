@@ -2,7 +2,7 @@
 
 function SmallCard(props) {
     return ( <>
-     <div className="main sm:w-52 w-4/5 h-fit sm:mx-2 sm:my-2 mt-10 rounded-xl bg-white ml-auto mr-auto "  data-aos="zoom-out-left">
+     <div className="main sm:w-52 w-4/5 h-fit sm:mx-2 sm:my-2 mt-10 rounded-xl bg-white ml-auto mr-auto "  data-aos="fade-up">
         <div className="top  p-2">
             <div>
                 <img src={props.image} className="rounded-xl object-cover sm:w-52 sm:h-52"  alt="" />

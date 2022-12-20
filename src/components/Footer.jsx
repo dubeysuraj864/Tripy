@@ -1,8 +1,8 @@
 import Logo from "../images/Logo.png";
-import Facebook from "../images/facebook.png";
-import Instagram from "../images/instagram.png";
-import Youtube from "../images/youtube.png";
-import SendButton from "../images/Send-button.png";
+import Facebook from "../images/facebook.webp";
+import Instagram from "../images/instagram.webp";
+import Youtube from "../images/youtube.webp";
+import SendButton from "../images/Send-button.webp";
 function Footer() {
   return (
     <>
